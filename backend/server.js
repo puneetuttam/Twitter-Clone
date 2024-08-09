@@ -13,8 +13,8 @@ console.log(process.env.MONGO_URI)
 
 app.use(express.urlencoded({extended:true})) //to parse form data(urlencoded)
 app.use(express.json());
-app.use('/api/auth',authRoutes);
 app.use(cookieParser());
+app.use('/api/auth',authRoutes);
 
 
 app.listen(PORT,()=>{
