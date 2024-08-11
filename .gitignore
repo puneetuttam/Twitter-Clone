@@ -25,4 +25,4 @@ dist-ssr
 
 
 .env
-./dummy.js
+dummy.js
