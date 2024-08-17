@@ -51,7 +51,7 @@ const userSchema = new mongoose.Schema(
             default: "",
         },
 
-        likedPost:[{
+        likedPosts:[{
             type:mongoose.Schema.Types.ObjectId,
             ref:"Post",
             default:[]
